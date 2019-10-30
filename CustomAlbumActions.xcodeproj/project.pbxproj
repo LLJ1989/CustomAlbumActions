@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91B3AC452369929F002EAF44 /* ModifieAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3AC442369929F002EAF44 /* ModifieAlbumViewController.swift */; };
+		91B3C23723688ABB00DBABB6 /* RemoveMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3C23623688ABB00DBABB6 /* RemoveMediaViewController.swift */; };
+		91B3C23923688DD800DBABB6 /* MediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3C23823688DD800DBABB6 /* MediaCollectionViewCell.swift */; };
+		91F2937C2368309E00F90BA9 /* AddMediasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2937B2368309E00F90BA9 /* AddMediasViewController.swift */; };
+		91F293822368354300F90BA9 /* MediaManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F293812368354300F90BA9 /* MediaManage.swift */; };
 		91F89A5123677DA7008A969A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A5023677DA7008A969A /* AppDelegate.swift */; };
 		91F89A5323677DA7008A969A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A5223677DA7008A969A /* SceneDelegate.swift */; };
-		91F89A5523677DA7008A969A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A5423677DA7008A969A /* ViewController.swift */; };
 		91F89A5823677DA7008A969A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F89A5623677DA7008A969A /* Main.storyboard */; };
 		91F89A5A23677DAA008A969A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F89A5923677DAA008A969A /* Assets.xcassets */; };
 		91F89A5D23677DAA008A969A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F89A5B23677DAA008A969A /* LaunchScreen.storyboard */; };
 		91F89A6823677DAA008A969A /* CustomAlbumActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A6723677DAA008A969A /* CustomAlbumActionsTests.swift */; };
+		91F89A7723677DFF008A969A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A7623677DFF008A969A /* HomeViewController.swift */; };
+		91F89A7923677E70008A969A /* CreatAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A7823677E70008A969A /* CreatAlbumViewController.swift */; };
+		91F89A7B2367808F008A969A /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A7A2367808F008A969A /* AlertController.swift */; };
+		91F89A7D236781C3008A969A /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A7C236781C3008A969A /* AlbumManager.swift */; };
+		91F89A7F236787D1008A969A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A7E236787D1008A969A /* Extensions.swift */; };
+		91F89A8123679509008A969A /* RemoveAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F89A8023679509008A969A /* RemoveAlbumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91B3AC442369929F002EAF44 /* ModifieAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifieAlbumViewController.swift; sourceTree = "<group>"; };
+		91B3C23623688ABB00DBABB6 /* RemoveMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveMediaViewController.swift; sourceTree = "<group>"; };
+		91B3C23823688DD800DBABB6 /* MediaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCollectionViewCell.swift; sourceTree = "<group>"; };
+		91F2937B2368309E00F90BA9 /* AddMediasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMediasViewController.swift; sourceTree = "<group>"; };
+		91F293812368354300F90BA9 /* MediaManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManage.swift; sourceTree = "<group>"; };
 		91F89A4D23677DA7008A969A /* CustomAlbumActions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlbumActions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F89A5023677DA7008A969A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91F89A5223677DA7008A969A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		91F89A5423677DA7008A969A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91F89A5723677DA7008A969A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91F89A5923677DAA008A969A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91F89A5C23677DAA008A969A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +52,12 @@
 		91F89A6323677DAA008A969A /* CustomAlbumActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlbumActionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F89A6723677DAA008A969A /* CustomAlbumActionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlbumActionsTests.swift; sourceTree = "<group>"; };
 		91F89A6923677DAA008A969A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F89A7623677DFF008A969A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		91F89A7823677E70008A969A /* CreatAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatAlbumViewController.swift; sourceTree = "<group>"; };
+		91F89A7A2367808F008A969A /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		91F89A7C236781C3008A969A /* AlbumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumManager.swift; sourceTree = "<group>"; };
+		91F89A7E236787D1008A969A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		91F89A8023679509008A969A /* RemoveAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAlbumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91F2937D2368351600F90BA9 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				91F89A7A2367808F008A969A /* AlertController.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		91F2937E2368351F00F90BA9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				91F89A7E236787D1008A969A /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		91F2937F2368352900F90BA9 /* AlbumManager */ = {
+			isa = PBXGroup;
+			children = (
+				91F89A7C236781C3008A969A /* AlbumManager.swift */,
+			);
+			path = AlbumManager;
+			sourceTree = "<group>";
+		};
+		91F293802368353400F90BA9 /* MediaManager */ = {
+			isa = PBXGroup;
+			children = (
+				91F293812368354300F90BA9 /* MediaManage.swift */,
+			);
+			path = MediaManager;
+			sourceTree = "<group>";
+		};
 		91F89A4423677DA7008A969A = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +131,10 @@
 		91F89A4F23677DA7008A969A /* CustomAlbumActions */ = {
 			isa = PBXGroup;
 			children = (
-				91F89A5023677DA7008A969A /* AppDelegate.swift */,
-				91F89A5223677DA7008A969A /* SceneDelegate.swift */,
-				91F89A5423677DA7008A969A /* ViewController.swift */,
-				91F89A5623677DA7008A969A /* Main.storyboard */,
-				91F89A5923677DAA008A969A /* Assets.xcassets */,
-				91F89A5B23677DAA008A969A /* LaunchScreen.storyboard */,
+				91F89A7523677DDB008A969A /* Model */,
+				91F89A7423677DD4008A969A /* View */,
+				91F89A7323677DCE008A969A /* Controller */,
+				91F89A7223677DB7008A969A /* Supporting File */,
 				91F89A5E23677DAA008A969A /* Info.plist */,
 			);
 			path = CustomAlbumActions;
@@ -99,6 +149,50 @@
 			path = CustomAlbumActionsTests;
 			sourceTree = "<group>";
 		};
+		91F89A7223677DB7008A969A /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				91F89A5923677DAA008A969A /* Assets.xcassets */,
+				91F89A5223677DA7008A969A /* SceneDelegate.swift */,
+				91F89A5023677DA7008A969A /* AppDelegate.swift */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		91F89A7323677DCE008A969A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91F89A7623677DFF008A969A /* HomeViewController.swift */,
+				91F89A7823677E70008A969A /* CreatAlbumViewController.swift */,
+				91F89A8023679509008A969A /* RemoveAlbumViewController.swift */,
+				91F2937B2368309E00F90BA9 /* AddMediasViewController.swift */,
+				91B3C23623688ABB00DBABB6 /* RemoveMediaViewController.swift */,
+				91B3AC442369929F002EAF44 /* ModifieAlbumViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		91F89A7423677DD4008A969A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91F89A5B23677DAA008A969A /* LaunchScreen.storyboard */,
+				91F89A5623677DA7008A969A /* Main.storyboard */,
+				91B3C23823688DD800DBABB6 /* MediaCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91F89A7523677DDB008A969A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91F293802368353400F90BA9 /* MediaManager */,
+				91F2937F2368352900F90BA9 /* AlbumManager */,
+				91F2937E2368351F00F90BA9 /* Extensions */,
+				91F2937D2368351600F90BA9 /* Alerts */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +203,7 @@
 				91F89A4923677DA7008A969A /* Sources */,
 				91F89A4A23677DA7008A969A /* Frameworks */,
 				91F89A4B23677DA7008A969A /* Resources */,
+				91B3AC462369C5FF002EAF44 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -195,14 +290,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91B3AC462369C5FF002EAF44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		91F89A4923677DA7008A969A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91F89A5523677DA7008A969A /* ViewController.swift in Sources */,
+				91F89A8123679509008A969A /* RemoveAlbumViewController.swift in Sources */,
+				91F89A7923677E70008A969A /* CreatAlbumViewController.swift in Sources */,
+				91F89A7B2367808F008A969A /* AlertController.swift in Sources */,
+				91F293822368354300F90BA9 /* MediaManage.swift in Sources */,
+				91B3AC452369929F002EAF44 /* ModifieAlbumViewController.swift in Sources */,
+				91F2937C2368309E00F90BA9 /* AddMediasViewController.swift in Sources */,
 				91F89A5123677DA7008A969A /* AppDelegate.swift in Sources */,
 				91F89A5323677DA7008A969A /* SceneDelegate.swift in Sources */,
+				91B3C23923688DD800DBABB6 /* MediaCollectionViewCell.swift in Sources */,
+				91B3C23723688ABB00DBABB6 /* RemoveMediaViewController.swift in Sources */,
+				91F89A7723677DFF008A969A /* HomeViewController.swift in Sources */,
+				91F89A7D236781C3008A969A /* AlbumManager.swift in Sources */,
+				91F89A7F236787D1008A969A /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +497,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lucaslombard.CustomAlbumActions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -390,7 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lucaslombard.CustomAlbumActions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

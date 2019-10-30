@@ -4,14 +4,13 @@
 //
 //  Created by Lucas Lombard on 28/10/2019.
 //  Copyright © 2019 Lucas Lombard. All rights reserved.
-//
+//  swiftlint:disable line_length unused_optional_binding
 
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
   var window: UIWindow?
-
 
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -48,6 +47,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     // to restore the scene back to its current state.
   }
 
-
 }
-
