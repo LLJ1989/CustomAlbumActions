@@ -4,7 +4,7 @@
 //
 //  Created by Lucas Lombard on 28/10/2019.
 //  Copyright © 2019 Lucas Lombard. All rights reserved.
-//  swiftlint:disable line_length colon
+//  
 
 import UIKit
 import Photos
@@ -38,29 +38,4 @@ extension UIImage {
     UIGraphicsEndImageContext()
     return newImage!
   }
-}
-
-extension PHAsset {
-    func getURL(completionHandler : @escaping ((_ responseURL : URL?) -> Void)) {
-        if self.mediaType == .image {
-            let options: PHContentEditingInputRequestOptions = PHContentEditingInputRequestOptions()
-            options.canHandleAdjustmentData = {(adjustmeta: PHAdjustmentData) -> Bool in
-                return true
-            }
-            self.requestContentEditingInput(with: options, completionHandler: {(contentEditingInput: PHContentEditingInput?, _: [AnyHashable : Any]) -> Void in
-                completionHandler(contentEditingInput!.fullSizeImageURL as URL?)
-            })
-        } else if self.mediaType == .video {
-            let options: PHVideoRequestOptions = PHVideoRequestOptions()
-            options.version = .original
-            PHImageManager.default().requestAVAsset(forVideo: self, options: options, resultHandler: {(asset: AVAsset?, _: AVAudioMix?, _: [AnyHashable : Any]?) -> Void in
-                if let urlAsset = asset as? AVURLAsset {
-                    let localVideoUrl: URL = urlAsset.url as URL
-                    completionHandler(localVideoUrl)
-                } else {
-                    completionHandler(nil)
-                }
-            })
-        }
-    }
 }
